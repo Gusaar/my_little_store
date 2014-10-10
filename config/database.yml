@@ -7,7 +7,7 @@
 default: &default
   adapter: mysql2
   username: root
-  password: pass.word9898
+  password: 
 
 development:
   <<: *default
