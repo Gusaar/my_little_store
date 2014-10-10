@@ -15,4 +15,5 @@
 //= require twitter/bootstrap
 //= require angular.min
 //= require angular-route
+//= require angular-sanitize
 //= require ui-bootstrap-tpls.min
