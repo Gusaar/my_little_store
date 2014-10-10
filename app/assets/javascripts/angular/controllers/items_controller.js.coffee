@@ -1,4 +1,4 @@
-itemsCtrl = angular.module 'itemsCtrl', [ 'itemDirectives' ]
+itemsCtrl = angular.module 'itemsCtrl', [ 'itemDirectives', 'modalDirectives' ]
 
 itemsCtrl.controller 'itemsCtrl', [ '$scope', '$location', '$routeParams', 'itemService', ($scope, $location, $routeParams, itemService)->
   $scope.item = {}

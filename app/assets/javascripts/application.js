@@ -15,3 +15,4 @@
 //= require twitter/bootstrap
 //= require angular.min
 //= require angular-route
+//= require ui-bootstrap-tpls.min

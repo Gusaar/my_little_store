@@ -6,7 +6,7 @@
 #= require_tree ./angular/directives
 #= require_tree ./angular/services
 
-app = angular.module 'little-store', [ 'ngRoute', 'homeIndexCtrl', 'itemsCtrl', 'navigationDirectives' ]
+app = angular.module 'little-store', [ 'ngRoute', 'homeIndexCtrl', 'itemsCtrl', 'navigationDirectives', 'ui.bootstrap' ]
 
 app.config ['$routeProvider', ($routeProvider) ->
   $routeProvider
