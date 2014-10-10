@@ -1,0 +1,7 @@
+<div class="col-lg-2 box">
+  <h3>{{ item.name }}</h3>
+  <h2 class="pull-right">{{ item.price | currency }}</h2>
+  <div class="clearfix"></div>
+  <p>{{ item.description }}</p>
+  <p ng-controller="itemsCtrl"><a class="btn btn-default" role="button" ng-click="showItem($parent.item.id)">Details...</a></p>
+</div>

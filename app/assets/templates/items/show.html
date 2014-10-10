@@ -1,0 +1,9 @@
+<div class="container">
+  <item-navigation-bar></item-navigation-bar>
+  <button class="btn btn-default pull-right" ng-click="redirectEdit(item.id)">Edit</button>
+  <button class="btn btn-default pull-right" ng-click="destroyItem(item.id)">Delete</button>
+
+  <h2>{{ item.name }}</h2>
+  <h3>{{ item.price | currency }}</h3>
+  <p>{{ item.description }}<p>
+</div>

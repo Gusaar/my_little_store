@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="little-store">
+<head>
+  <title>My Little Store</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application', controller_name %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<navigation-bar></navigation-bar>
+<ng-view></ng-view>
+
+</body>
+</html>

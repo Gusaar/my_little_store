@@ -1,0 +1,21 @@
+<div class="container push-top-50">
+  <item-navigation-bar></item-navigation-bar>
+  
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="text-primary">Edit Item: {{ item.name }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-7">
+      <form class="form" role="form">
+        <item-form></item-form>
+
+        <div class="form-group">
+          <button class="btn btn-primary" ng-click="updateItem()">Save</button>
+          <button class="btn btn-default" ng-click="clearForm()">Clear</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
