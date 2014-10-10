@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.6'
 
 gem 'coffee-rails', '~> 4.0.0'
+gem 'haml'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'mysql2'

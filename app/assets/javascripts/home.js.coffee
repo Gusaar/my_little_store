@@ -10,7 +10,7 @@ app = angular.module 'little-store', [ 'ngRoute', 'homeIndexCtrl', 'itemsCtrl', 
 
 app.config ['$routeProvider', ($routeProvider) ->
   $routeProvider
-    .when('/', { templateUrl: '../assets/home/index.html', controller: 'homeIndexCtrl' })
+    .when('/', { templateUrl: '../assets/home/index.html.haml', controller: 'homeIndexCtrl' })
     .when('/items', { templateUrl: '../assets/home/index.html', controller: 'homeIndexCtrl' })
     .when('/items/new', { templateUrl: '../assets/items/new.html', controller: 'itemsCtrl' })
     .when('/items/:id', { templateUrl: '../assets/items/show.html', controller: 'itemsCtrl' })
